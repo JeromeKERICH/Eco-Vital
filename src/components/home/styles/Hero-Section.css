@@ -74,9 +74,9 @@
 
 
 /* ✅ Primary Button */
-.btn-primary {
-  color: white;
-  font-style: bold;
+.btn-main {
+  background: none;
+  color: var(--gold-orange);
 }
 
 

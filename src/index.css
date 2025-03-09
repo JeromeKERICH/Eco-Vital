@@ -69,3 +69,6 @@ strong {
   text-decoration: none;
 }
 
+.btn-main {
+  border: 1px solid var(--gold-orange);
+}

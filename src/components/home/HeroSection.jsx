@@ -19,7 +19,7 @@ const Hero = () => {
           advisory, investment facilitation, and sustainability consulting.
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-primary">
+          <button className="btn btn-main">
             <FaCalendarAlt className="btn-icon" /> Schedule a Consultation
           </button>
           <button className="btn btn-secondary">
