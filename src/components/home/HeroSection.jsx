@@ -7,7 +7,7 @@ const Hero = () => {
   useEffect(() => {
     scrollTo(0, 0);
   }, []);
-  
+
   return (
     <section className="hero">
       <div className="hero-overlay"></div> {/* Gradient Overlay */}

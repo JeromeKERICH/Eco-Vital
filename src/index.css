@@ -69,11 +69,3 @@ strong {
   text-decoration: none;
 }
 
-.btn-danger {
-  background-color: var(--gold-orange);
-  color: var(--white);
-}
-
-.btn-danger:hover {
-  background-color: #B45309;
-}

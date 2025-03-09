@@ -71,10 +71,10 @@
   font-size: 1.5rem;
 }
 
+
+
 /* ✅ Primary Button */
 .btn-primary {
-  background-color: clear;
-
   color: white;
   font-style: bold;
 }
