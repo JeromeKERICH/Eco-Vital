@@ -1,0 +1,67 @@
+/* 🌟 Testimonials Section */
+.testimonials {
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    color: var(--green);
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  /* 🌟 Testimonial Card */
+  .testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .feedback {
+    font-size: 1rem;
+    color: var(--dark-gray);
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.2rem;
+    color: var(--primary-green);
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-card span {
+    font-size: 0.9rem;
+    color: var(--secondary-blue);
+  }
+  
+  /* 🌟 Swiper Pagination */
+  .swiper-pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials h2 {
+        font-size: 1.5rem;
+    }
+    .testimonials {
+      padding: 40px 5%;
+    }
+  }
+  

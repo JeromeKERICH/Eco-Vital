@@ -1,0 +1,102 @@
+/* 🌟 Who We Are Section */
+.who-we-are {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 🌟 Container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+  }
+  
+  /* 🌟 Content */
+  .who-content {
+    flex: 1;
+    order: 1;
+  }
+  
+  .who-content h2 {
+    font-size: 2rem;
+    color: var(--green);
+    margin-bottom: 15px;
+  }
+  
+  .who-content p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    line-height: 1.6;
+  }
+  
+  /* 🌟 Image */
+  .who-image {
+    flex: 1;
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .who-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  /* 🌟 Learn More Link */
+.learn-more {
+    padding: 20px 0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: var(--gold-orange);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .learn-more .arrow-icon {
+    margin-left: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .learn-more:hover .arrow-icon {
+    transform: translateX(5px);
+  }
+  
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+
+    .who-we-are {
+        padding: 20px 3%;
+    }
+
+    .learn-more {
+        text-align: start;
+    }
+
+    .who-content p  {
+        text-align: start;
+    }
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .who-content {
+      order: 1; /* Content first */
+    }
+  
+    .who-image {
+      order: 2;
+    }
+  }
+  

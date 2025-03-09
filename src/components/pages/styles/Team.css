@@ -1,0 +1,93 @@
+/* 🌟 Team Section */
+.team {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* 🌟 Section Title */
+  .section-title {
+    font-size: 2rem;
+    color: var(--green);
+    margin-bottom: 30px;
+  }
+  
+  /* 🌟 Team Grid */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* 🌟 Team Card */
+  .team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .team-card img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* 🌟 Team Name & Role */
+  .team-card h3 {
+    font-size: 1.4rem;
+    color: var(--dark-gray);
+    margin-bottom: 5px;
+  }
+  
+  .team-card p {
+    font-size: 1rem;
+    color: var(--dark-gray);
+    margin-bottom: 10px;
+  }
+  
+  /* 🌟 Social Icons */
+  .team-social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .team-social a {
+    color: var(--green);
+    font-size: 1.6rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .team-social a:hover {
+    transform: scale(1.2);
+    color: var(--tertiary-gold);
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 1024px) {
+    .team {
+        padding: 20px 3%;
+    }
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

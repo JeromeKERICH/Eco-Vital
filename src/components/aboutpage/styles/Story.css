@@ -1,0 +1,76 @@
+
+.company-story {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*  Container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+  }
+  
+  /*  Content */
+  .story-content {
+    flex: 1;
+    order: 1;
+  }
+  
+  .story-content h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 15px;
+  }
+  
+  .story-content p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    line-height: 1.6;
+    text-align: start;
+  }
+
+
+  
+  /*  Image */
+  .story-image {
+    flex: 1;
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .story-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  /*  Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .company-story {
+        padding: 20px 3%;
+    }
+  
+    .story-content {
+      order: 1; /* Content first */
+    }
+  
+    .story-image {
+      order: 2;
+    }
+  }
+  

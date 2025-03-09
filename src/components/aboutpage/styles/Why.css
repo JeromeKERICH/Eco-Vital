@@ -1,0 +1,70 @@
+/* 🌟 Why Choose Us Section */
+.why-choose-us {
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2rem;
+
+    color: var(--green);
+    margin-bottom: 30px;
+  }
+  
+  /* 🌟 Highlights Grid */
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* 🌟 Highlight Card */
+  .highlight-card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: var(--dark-gray);
+    margin-bottom: 10px;
+  }
+  
+  .highlight-card h3 {
+    font-size: 1.4rem;
+    color: var(--primary-green);
+    margin-bottom: 5px;
+  }
+  
+  .highlight-card p {
+    font-size: 1rem;
+    color: var(--dark-gray);
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 1024px) {
+    .highlights-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    .why-choose-us {
+        padding: 20px 3%;
+    }
+    .highlights-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

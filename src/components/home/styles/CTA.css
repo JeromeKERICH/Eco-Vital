@@ -1,0 +1,80 @@
+/* 🌟 CTA Section */
+.cta {
+    width: 100%;
+    padding: 60px 10%;
+    background: linear-gradient(135deg, var(--green), var(--blue));
+    color: white;
+    text-align: center;
+  }
+  
+  /* 🌟 CTA Container */
+  .cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* 🌟 Headline */
+  .cta-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  /* 🌟 Subheadline */
+  .cta-container p {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    margin-bottom: 25px;
+  }
+  
+  /* 🌟 CTA Buttons */
+  .cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid var(--gold-orange);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  /* ✅ Primary Button */
+  .btn-primary {
+    background-color: clear;
+    text-decoration: none;
+    color: goldenrod;
+    font-style: bold;
+  }
+  
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .cta-container h2 {
+      font-size: 2rem;
+    }
+  
+    .cta-container p {
+      font-size: 1rem;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+    }
+  }
+  

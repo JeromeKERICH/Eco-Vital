@@ -1,0 +1,113 @@
+/* 🌟 Trust & Credibility Section */
+.trust-section {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+
+  .impact-stats h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: var(--green);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    margin: 20px auto 0;
+  }
+  
+  /* 🌟 Impact Item */
+  .impact-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .impact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .impact-icon {
+    font-size: 3rem;
+    color: var(--green);
+    margin-bottom: 10px;
+  }
+  
+  .impact-item h3 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .impact-item p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  
+  /* 🌟 Partners Section */
+  .partners h2 {
+    font-size: 2rem;
+    color: var(--green);
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+  
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 20px auto 0;
+  }
+  
+  /* 🌟 Partner Card */
+  .partner-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .partner-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .partner-card img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .partner-card p {
+    font-size: 1.1rem;
+    color: var(--dark-gray);
+    font-weight: bold;
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+
+    .impact-stats h2 {
+        font-size: 1.5rem;
+    }
+    .partners-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .impact-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+  }
+  
