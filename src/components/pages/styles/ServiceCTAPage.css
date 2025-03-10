@@ -96,13 +96,13 @@
  
   
   /* 🌟 Success & Error Messages */
-  .success {
+ .cta-container p {
     color: green;
     font-size: 1rem;
     margin-bottom: 10px;
   }
   
-  .error {
+.cta-container p {
     color: red;
     font-size: 1rem;
     margin-bottom: 10px;

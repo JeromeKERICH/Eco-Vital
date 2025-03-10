@@ -8,6 +8,10 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./styles/ServiceCTAPage.css";
 
 export default function ServiceCTAPage() {
+     useEffect(() => {
+                window.scrollTo(0, 0);
+            }, [])
+            
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const selectedService = searchParams.get("service") || "General Inquiry";
