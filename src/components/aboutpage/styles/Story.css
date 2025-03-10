@@ -2,7 +2,6 @@
 .company-story {
     width: 100%;
     padding: 60px 10%;
-    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,12 +53,37 @@
     border-radius: 10px;
   }
   
+  @media (max-width: 1280px) {
+    .container {
+      flex-direction: column;
+    }
+
+  }
+
+  .story-content {
+    order: 1; /* Content first */
+  }
+
+  .story-image {
+    order: 2;
+    
+  }
+
+  .story-image img {
+    max-width: 750px;
+  }
+  
   /*  Responsive Design */
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
       text-align: center;
     }
+
+    .story-content p {
+      font-size: 1rem;
+    }
+   
 
     .company-story {
         padding: 20px 3%;

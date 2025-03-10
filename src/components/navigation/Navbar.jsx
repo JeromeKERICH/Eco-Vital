@@ -149,13 +149,7 @@ const Navbar = () => {
               {errors.email && <span className="error">{errors.email}</span>}
 
               {/* Phone Number with Country Code */}
-              <PhoneInput
-                country={"ke"} // Default country: Kenya
-                value={formData.phone}
-                onChange={handlePhoneChange}
-                inputProps={{ name: "phone", required: true }}
-              />
-              {errors.phone && <span className="error">{errors.phone}</span>}
+              
 
               {/* Dropdown Selection for Info Request */}
               <select name="requestType" value={formData.requestType} onChange={handleChange}>
@@ -168,6 +162,16 @@ const Navbar = () => {
                 <option value="Other">Other</option>
               </select>
               {errors.requestType && <span className="error">{errors.requestType}</span>}
+
+              <PhoneInput
+                country={"ke"}
+                value={formData.phone}
+                onChange={handlePhoneChange}
+                inputProps={{ name: "phone", required: true }}
+                containerClass="phone-input-container"
+                inputClass="phone-input-field"
+              />
+              {errors.phone && <span className="error">{errors.phone}</span>}
 
               <textarea name="message" placeholder="Additional Details (Optional)" rows="4" value={formData.message} onChange={handleChange}></textarea>
 

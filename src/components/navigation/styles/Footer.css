@@ -95,9 +95,14 @@
       flex-direction: column;
       text-align: center;
     }
+
+    .footer-col ul li {
+      justify-content: start;
+      text-align: start;
+    }
   
     .social-icons {
-      justify-content: center;
+      justify-content: start;
     }
   }
   

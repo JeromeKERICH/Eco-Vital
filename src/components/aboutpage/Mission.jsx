@@ -17,15 +17,30 @@ const VisionMission = () => {
         <div className="vision-box">
           <h2>Our Vision</h2>
           <p>
-            "To be the foremost catalyst for sustainable business transformation 
-            and impact-driven investment in Africa."
+          To be the foremost catalyst for
+          sustainable business transformation
+          and impact-driven investment in
+          Africa. We envision a future where
+          businesses thrive through
+          responsible and innovative practices,
+          creating lasting economic, social,
+          and environmental value.
           </p>
         </div>
         <div className="mission-box">
           <h2>Our Mission</h2>
           <p>
-            "To empower businesses, investors, and organizations with tailored 
-            advisory services that drive measurable impact."
+          To empower enterprises, investors,
+          and organizations by providing
+          cutting-edge advisory services that
+          integrate sustainability, investment
+          facilitation, and business
+          transformation. Through strategic
+          partnerships, tailored solutions, and
+          knowledge-sharing, we enable our
+          clients to achieve measurable
+          impact and long-term success in the
+          evolving African business landscape
           </p>
         </div>
       </div>

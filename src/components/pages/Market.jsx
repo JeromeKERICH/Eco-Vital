@@ -10,7 +10,7 @@ export default function MarketExpansion() {
     <section className="service-page">
       {/* Hero Section */}
       <div className="hero-section">
-        <h1>Training & Capacity Building</h1>
+        <h1>Market Expansion</h1>
         <p>
         We Help businesses looking to enter or expand into African markets, we provide tailored solutions that cover market intelligence, regulatory guidance, and strategic partnerships to ensure a smooth and successful transition.
         </p>

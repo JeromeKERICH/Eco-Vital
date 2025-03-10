@@ -31,18 +31,11 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+           
+            <a href="https://www.linkedin.com/company/eco-vital-group/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram />
-            </a>
+            
           </div>
         </div>
       </div>

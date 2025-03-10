@@ -10,6 +10,7 @@ import TrainingCapacity from "./components/pages/Training";
 import MarketExpansion from "./components/pages/Market";
 import ServicePage from "./components/pages/ServicePage";
 import ServiceCTAPage from "./components/pages/ServiceCTAPage";
+import AdvocacyServices from "./components/pages/Advocacy";
 
 
 
@@ -27,6 +28,7 @@ function AppRoutes() {
         <Route path="market-expansion" element={<MarketExpansion/>}/>
         <Route path="servicespage" element={<ServicePage/>}/>
         <Route path="service-cta" element={<ServiceCTAPage/>}/>
+        <Route path="advocacy-services" element={<AdvocacyServices/>}/>
     </Routes>
   );
 }

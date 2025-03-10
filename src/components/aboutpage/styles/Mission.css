@@ -2,7 +2,6 @@
 .vision-mission {
     width: 100%;
     padding: 60px 10%;
-    background-color: #f9f9f9;
     text-align: center;
   }
   
@@ -17,17 +16,13 @@
   
   .vision-box, .mission-box {
     flex: 1;
-    background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   
-  .vision-box:hover, .mission-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  }
+ 
   
   .vision-box h2, .mission-box h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,7 +33,9 @@
   
   .vision-box p, .mission-box p {
     font-size: 1.2rem;
-    color: var(--dark-gray);
+    color: #333;
+    text-align: start;
+    line-height: 1.6;
   }
   
   /*  Core Values */
@@ -60,10 +57,8 @@
   
   /*  Core Value Card */
   .core-value-card {
-    background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
@@ -89,6 +84,7 @@
   .core-value-card p {
     font-size: 1rem;
     color: var(--dark-gray);
+    line-height: 1.6;
   }
   
   /* Responsive Design */
@@ -103,6 +99,10 @@
   }
   
   @media (max-width: 768px) {
+
+    .vision-box p, .mission-box p {
+      font-size: 1rem;
+    }
     .vision-mission {
         padding: 20px 3%;
     }

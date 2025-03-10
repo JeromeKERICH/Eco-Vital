@@ -20,7 +20,8 @@
   .cta-container h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
-    color: var(--gold-orange);
+    color: var(--green);
+    margin-bottom: 20px;
   }
   
   /* 🌟 Form Inputs */
@@ -97,16 +98,11 @@
   
   /* 🌟 Success & Error Messages */
  .cta-container p {
-    color: green;
+    color: #333;
     font-size: 1rem;
     margin-bottom: 10px;
   }
-  
-.cta-container p {
-    color: red;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
+ 
   
   /* 🌟 Live Character Counter */
   .char-count {

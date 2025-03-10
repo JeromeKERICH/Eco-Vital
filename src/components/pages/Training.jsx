@@ -22,7 +22,7 @@ export default function TrainingCapacity() {
       <div className="content-container">
         {/* Image Section */}
         <div className="service-image">
-          <img src="/assets/4.jpg" alt="Training & Capacity Building" />
+          <img src="/assets/training.jpg" alt="Training & Capacity Building"/>
         </div>
 
         {/* Key Features Section */}

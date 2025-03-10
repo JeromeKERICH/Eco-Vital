@@ -1,4 +1,4 @@
-import { FaBusinessTime, FaMoneyBillWave, FaLeaf, FaChalkboardTeacher, FaGlobe, FaArrowRight } from "react-icons/fa";
+import { FaBusinessTime, FaMoneyBillWave, FaLeaf, FaChalkboardTeacher, FaGlobe, FaArrowRight, FaFemale } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./styles/Services.css";
 
@@ -37,6 +37,13 @@ const servicesData = [
     title: "Market Entry & Expansion Strategy",
     description: "Assisting companies in navigating new markets and regulatory landscapes.",
     link: "/market-expansion",
+  },
+  {
+    id: 6,
+    icon: <FaFemale className="service-icon" />,
+    title: "Advocacy Service (Women & Youth)",
+    description: "Empowering women and youth through advocacy, support, and resources to drive social and economic change.",
+    link: "/advocacy-services",
   }
 ];
 

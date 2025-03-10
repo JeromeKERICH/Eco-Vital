@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* 🌟 Color Variables */
@@ -17,15 +17,19 @@
 }
 
 /* 🌟 Global Styles */
-body {
-  font-family: var(--font-main);
-  background-color: var(--white);
+body { 
+  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
 }
 
+.handwriting {
+  font-family: "Dancing Script", cursive;
+}
+
 /* 🌟 Typography */
 h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 2.5rem;
   color: var(--green);
   font-weight: bold;
@@ -43,10 +47,7 @@ h3 {
   font-weight: bold;
 }
 
-p {
-  font-size: 1rem;
-  color: var(--dark-gray);
-}
+
 
 strong {
   font-weight: bold;

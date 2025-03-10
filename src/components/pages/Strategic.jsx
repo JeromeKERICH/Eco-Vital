@@ -21,7 +21,7 @@ export default function StrategicAdvisory() {
       <div className="content-container">
         {/* Image Section */}
         <div className="service-image">
-          <img src="/assets/1.jpg" alt="Strategic Business Advisory" />
+          <img src="/assets/advis.jpg" alt="Strategic Business Advisory" />
         </div>
 
         {/* Key Features Section */}
