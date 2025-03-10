@@ -19,12 +19,13 @@ const Hero = () => {
           advisory, investment facilitation, and sustainability consulting.
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-main">
+          <a href="https://calendly.com/liza-ecovitalconsulting/30min" className="btn btn-main">
             <FaCalendarAlt className="btn-icon" /> Schedule a Consultation
-          </button>
-          <button className="btn btn-secondary">
+          </a>
+          <button className="btn btn-secondary" onClick={() => window.location.href = "mailto:liza@ecovitalconsulting.com"}>
             <FaEnvelope className="btn-icon" /> Get in Touch
           </button>
+
         </div>
       </div>
     </section>

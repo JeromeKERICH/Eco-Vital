@@ -16,7 +16,7 @@ const TrustSection = () => {
           </div>
           <div className="impact-item">
             <FaDollarSign className="impact-icon" />
-            <h3>$<CountUp end={50} duration={3} />M+</h3>
+            <h3><CountUp end={10} duration={3} />M+</h3>
             <p>Sustainable investments managed</p>
           </div>
           <div className="impact-item">

@@ -54,7 +54,7 @@ export default function MarketExpansion() {
 
       {/* Call-to-Action Section */}
       <div className="ctabutt">
-        <Link to="/contact" className="btn btn-primary">Start Your Business</Link>
+        <Link to="/service-cta?service=Market Expansion" className="btn btn-primary">Start Your Business</Link>
       </div>
     </section>
   );

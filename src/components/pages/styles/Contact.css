@@ -94,6 +94,18 @@
     color: #f8f8f8;
     transition: background 0.3s ease-in-out;
   }
+
+  .success-message {
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
   
   
   /* 📱 Responsive Design */

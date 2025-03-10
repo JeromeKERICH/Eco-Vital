@@ -9,6 +9,7 @@ import SustainabilityESG from "./components/pages/Sustain";
 import TrainingCapacity from "./components/pages/Training";
 import MarketExpansion from "./components/pages/Market";
 import ServicePage from "./components/pages/ServicePage";
+import ServiceCTAPage from "./components/pages/ServiceCTAPage";
 
 
 
@@ -25,6 +26,7 @@ function AppRoutes() {
         <Route path="training-capacity" element={<TrainingCapacity/>}/>
         <Route path="market-expansion" element={<MarketExpansion/>}/>
         <Route path="servicespage" element={<ServicePage/>}/>
+        <Route path="service-cta" element={<ServiceCTAPage/>}/>
     </Routes>
   );
 }

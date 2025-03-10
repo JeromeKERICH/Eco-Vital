@@ -50,7 +50,7 @@ export default function InvestmentAdvisory() {
 
       {/* Call-to-Action Section */}
       <div className="ctabutt">
-        <Link to="/contact" className="btn btn-primary">Get Investment Guidance</Link>
+        <Link to="/service-cta?service=Investment" className="btn btn-primary">Get Investment Guidance</Link>
       </div>
     </section>
   );

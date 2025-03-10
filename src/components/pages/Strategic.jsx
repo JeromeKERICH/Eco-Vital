@@ -50,7 +50,7 @@ export default function StrategicAdvisory() {
 
       {/* Call-to-Action Section */}
       <div className="ctabutt">
-        <Link to="/contact" className="btn btn-primary">Get Expert Advice</Link>
+        <Link to="/service-cta?service=Business Advisory" className="btn btn-primary">Get Expert Advice</Link>
       </div>
     </section>
   );

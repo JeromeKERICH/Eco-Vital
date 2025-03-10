@@ -51,7 +51,7 @@ export default function SustainabilityESG() {
 
       {/* Call-to-Action Section */}
       <div className="ctabutt">
-        <Link to="/contact" className="btn btn-primary">Get ESG Consultation</Link>
+        <Link to="/service-cta?service=Sustainability" className="btn btn-primary">Get ESG Consultation</Link>
       </div>
     </section>
   );

@@ -1,11 +1,55 @@
+import { useEffect, useState } from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import emailjs from "emailjs-com";
 import "./styles/Contact.css";
-import { useEffect } from "react";
 
 export default function Contact() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const [isSent, setIsSent] = useState(false);
+  const [error, setError] = useState("");
+
+  // Handle Input Change
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Handle Form Submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!formData.name || !formData.email || !formData.message) {
+      setError("All fields are required.");
+      return;
+    }
+
+    setError("");
+
+    emailjs.send(
+      "service_6nn1wde",  // Replace with your EmailJS Service ID
+      "template_ak3cp6h", // Replace with your EmailJS Template ID
+      formData,
+      "rfhgx4MoqlQ9cFEWV"   // Replace with your EmailJS Public Key
+    )
+    .then((response) => {
+      console.log("Email sent successfully:", response);
+      setIsSent(true);
+      setFormData({ name: "", email: "", message: "" });
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error);
+      setError("Failed to send message. Please try again.");
+    });
+  };
+
   return (
     <section className="contact">
       <div className="contact-container">
@@ -17,8 +61,7 @@ export default function Contact() {
           <div className="contact-details">
             <div className="contact-item">
               <FaMapMarkerAlt className="contact-icon" />
-              <p>Nairobi, Kenya
-              </p>
+              <p>Nairobi, Kenya</p>
             </div>
             <div className="contact-item">
               <FaPhoneAlt className="contact-icon" />
@@ -34,10 +77,13 @@ export default function Contact() {
         {/* Contact Form */}
         <div className="contact-form">
           <h3>Send Us a Message</h3>
-          <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+          {isSent && <p className="success-message">Your message has been sent successfully!</p>}
+          {error && <p className="error-message">{error}</p>}
+
+          <form onSubmit={handleSubmit}>
+            <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
+            <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
+            <textarea name="message" placeholder="Your Message" rows="5" value={formData.message} onChange={handleChange} required></textarea>
             <button type="submit" className="btn btn-primary">Send Message</button>
           </form>
         </div>

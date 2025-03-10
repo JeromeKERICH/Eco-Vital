@@ -1,0 +1,178 @@
+/* 🌟 Service CTA Section */
+.service-cta {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* 🌟 Form Container */
+  .cta-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.4s ease-in-out;
+  }
+
+  .cta-container h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: var(--gold-orange);
+  }
+  
+  /* 🌟 Form Inputs */
+  .cta-container input,
+  .cta-container textarea,
+  .cta-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  /* 🌟 Input Focus Effect */
+  .cta-container input:focus,
+  .cta-container textarea:focus,
+  .cta-container select:focus {
+    border-color: var(--primary-green);
+    outline: none;
+    box-shadow: 0 0 5px rgba(34, 139, 34, 0.5);
+  }
+  
+  /* 🌟 Step Navigation Buttons */
+  .btn-next {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--gold-orange);
+    color: white;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  
+  
+  /* 🌟 Submit Button */
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--gold-orange);
+    color: white;
+    transition: background 0.3s ease-in-out;
+  }
+  
+
+
+  
+  /* 🌟 Loader Spinner */
+  .loader {
+    width: 15px;
+    height: 15px;
+    border: 3px solid white;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 8px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+ 
+  
+  /* 🌟 Success & Error Messages */
+  .success {
+    color: green;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* 🌟 Live Character Counter */
+  .char-count {
+    font-size: 0.9rem;
+    text-align: right;
+    color: var(--dark-gray);
+  }
+  
+  /* 🌟 Schedule Call Checkbox */
+  .schedule-call {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .schedule-call input {
+    margin-right: 5px;
+  }
+  
+  /* 🌟 Calendar Container */
+  .calendar-container {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* 🌟 Time Slot Selector */
+  .cta-container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* 🌟 Input & Button Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .cta-container {
+        padding: 20px 3%;
+    }
+  }
+  /* 📱 Responsive Design */
+  @media (max-width: 500px) {
+    .cta-container {
+    padding: 20px 3%;
+      width: 100%;
+    }
+  }
+  

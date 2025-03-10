@@ -52,7 +52,7 @@ export default function TrainingCapacity() {
 
       {/* Call-to-Action Section */}
       <div className="ctabutt">
-        <Link to="/contact" className="btn btn-primary">Enroll in Training</Link>
+        <Link to="/service-cta?service=Training" className="btn btn-primary">Enroll in Training</Link>
       </div>
     </section>
   );

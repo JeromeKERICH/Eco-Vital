@@ -6,28 +6,25 @@ const teamMembers = [
     id: 1,
     name: "Elizabeth Nasaka",
     role: "Managing Director",
-    image: "/assets/liza.jpg",
-    linkedin: "https://linkedin.com/in/johndoe",
-    twitter: "https://twitter.com/johndoe",
-    email: "mailto:johndoe@example.com"
+    image: "/assets/lizaa.jpg",
+    linkedin: "https://www.linkedin.com/in/elizabeth-nasaka-276a25100?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    email: "mailto:liza@ecovitalconsulting.com"
   },
   {
     id: 2,
     name: "Timothy Ngige",
     role: "Project Development Partner",
     image: "/assets/tim.jpg",
-    linkedin: "https://linkedin.com/in/janesmith",
-    twitter: "https://twitter.com/janesmith",
-    email: "mailto:janesmith@example.com"
+    linkedin: "https://www.linkedin.com/in/timothy-ngige?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    email: "mailto:timothyngige@gmail.com"
   },
   {
     id: 3,
     name: "Kelvin Smile",
     role: "Communication & Media Relations",
     image: "/assets/kev.jpg",
-    linkedin: "https://linkedin.com/in/michaelbrown",
-    twitter: "https://twitter.com/michaelbrown",
-    email: "mailto:michaelbrown@example.com"
+    linkedin: "https://www.linkedin.com/in/kelvin-kiptoo-communications-strategist/",
+    email: "mailto:youngkelvins@gmail.com"
   }
 ];
 
@@ -43,7 +40,6 @@ export default function Team() {
             <p>{member.role}</p>
             <div className="team-social">
               <a href={member.linkedin} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-              <a href={member.twitter} target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
               <a href={member.email}><FaEnvelope /></a>
             </div>
           </div>

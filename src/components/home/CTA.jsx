@@ -1,4 +1,5 @@
 import { FaCalendarAlt, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./styles/CTA.css";
 
 export default function CTA() {
@@ -8,9 +9,9 @@ export default function CTA() {
         <h2>Let's Drive Sustainable Growth Together</h2>
         <p>Partner with Eco-Vital Consulting to unlock impactful business opportunities and sustainable investments.</p>
         <div className="cta-buttons">
-          <a href="/contact" className="btn btn-secondary">
+          <Link to="/contactpage" className="btn btn-secondary">
             <FaEnvelope className="btn-icon" /> Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </section>

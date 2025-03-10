@@ -7,32 +7,32 @@ import "./styles/Testimonials.css";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    role: "CEO, GreenEnergy Inc.",
+    name: "Alvin Taru",
+    role: "CEO, GreenCom Ltd.",
     feedback: "Eco-Vital Consulting transformed our business with strategic insights. Highly recommended!",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Jane Ngeny",
     role: "Investor, Sustainable Growth Fund",
     feedback: "Professional and insightful guidance. Helped us unlock new investment opportunities.",
   },
   {
     id: 3,
-    name: "Michael Brown",
-    role: "Founder, EcoSolutions",
+    name: "Michael Tim",
+    role: "Founder, EcoSol",
     feedback: "A reliable partner in sustainability consulting. They truly understand ESG integration.",
   },
   {
     id: 4,
-    name: "Sarah Johnson",
-    role: "CFO, Future Investments",
+    name: "Sarah T",
+    role: "CFO, Made Up Investments",
     feedback: "Their financial expertise helped us secure funding and optimize our investment strategy.",
   },
   {
     id: 5,
-    name: "David Williams",
-    role: "Managing Director, Impact Ventures",
+    name: "David Son",
+    role: "Managing Director, Impact Ltd",
     feedback: "An invaluable resource for expanding into African markets. Highly knowledgeable team!",
   }
 ];
