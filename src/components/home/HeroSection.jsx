@@ -22,7 +22,7 @@ const Hero = () => {
           <a href="https://calendly.com/liza-ecovitalconsulting/30min" className="btn btn-main">
             <FaCalendarAlt className="btn-icon" /> Schedule a Consultation
           </a>
-          <button className="btn btn-secondary" onClick={() => window.location.href = "mailto:liza@ecovitalconsulting.com"}>
+          <button className="btn btn-secondary" onClick={() => window.location.href = "mailto:ecovitalconsulting@gmail.com"}>
             <FaEnvelope className="btn-icon" /> Get in Touch
           </button>
 

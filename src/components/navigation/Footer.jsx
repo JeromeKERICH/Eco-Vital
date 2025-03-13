@@ -35,6 +35,9 @@ const Footer = () => {
             <a href="https://www.linkedin.com/company/eco-vital-group/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
+            <a href="https://www.facebook.com/profile.php?!d=61573808383427" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF />
+            </a>
             
           </div>
         </div>
@@ -42,7 +45,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Eco-Vital Consulting. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Eco-Vital Consulting. All rights reserved. Designed & Maintained by <a href="https://trichenest.com">Triche Nest</a></p>
       </div>
     </footer>
   );

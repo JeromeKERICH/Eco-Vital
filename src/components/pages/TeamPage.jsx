@@ -25,6 +25,15 @@ const teamMembers = [
     image: "/assets/kev.jpg",
     linkedin: "https://www.linkedin.com/in/kelvin-kiptoo-communications-strategist/",
     email: "mailto:youngkelvins@gmail.com"
+  },
+
+  {
+    id: 4,
+    name: "Dorothy Dottie Liech",
+    role: "Investment Partner",
+    image: "/assets/dorot.jpg",
+    link: "https://www.linkedin.com/in/dorothy-dottie-liech-31125440/",
+    email: "mailto:dorothy@ecovitalconsulting.com"
   }
 ];
 

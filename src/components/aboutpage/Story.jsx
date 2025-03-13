@@ -28,7 +28,7 @@ const CompanyStory = () => {
 
         {/* Image Section */}
         <div className="story-image">
-          <img src="/assets/about2.jpg" alt="Eco-Vital" />
+          <img src="/assets/euro.jpg" alt="Eco-Vital" />
         </div>
       </div>
     </section>

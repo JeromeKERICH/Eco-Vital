@@ -88,6 +88,14 @@
     color: #f8f8f8b7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
+  .footer-bottom a {
+    color: white;
+    font-size: 1.2rem;
+    color: cadetblue;
+    cursor: pointer;
+    text-decoration: none;
+  }
   
   /* 📱 Responsive Design */
   @media (max-width: 768px) {

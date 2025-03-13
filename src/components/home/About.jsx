@@ -23,7 +23,7 @@ const WhoWeAre = () => {
 
         {/* Image */}
         <div className="who-image">
-          <img src="/assets/about.jpg" alt="Who We Are" />
+          <img src="/assets/euro.jpg" alt="Who We Are" />
         </div>
       </div>
     </section>

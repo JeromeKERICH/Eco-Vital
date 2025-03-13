@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 /* 🌟 Color Variables */
@@ -45,6 +46,10 @@ h3 {
   font-size: 1.5rem;
   color: var(--gold-orange);
   font-weight: bold;
+}
+
+p {
+  font-weight: 400;
 }
 
 

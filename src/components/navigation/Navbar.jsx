@@ -113,7 +113,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="logo">
         <h1>
-          ECO-VITAL <span>Consulting</span>
+          <img src="assets/ecologo.png" alt="Eco-Vital Consulting" />
         </h1>
       </div>
 

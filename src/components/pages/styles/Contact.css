@@ -47,6 +47,13 @@
     align-items: center;
     gap: 10px;
   }
+
+
+  .contact-item a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+  }
   
   .contact-icon {
     font-size: 1.5rem;

@@ -69,7 +69,7 @@ export default function Contact() {
             </div>
             <div className="contact-item">
               <FaEnvelope className="contact-icon" />
-              <p>info@ecovital.com</p>
+              <p><a href="mailto:info@ecovitalconsulting.com">Info@ecovitalconsulting.com</a></p>
             </div>
           </div>
         </div>

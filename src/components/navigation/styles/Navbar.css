@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 10%;
-    background: var(--green);
+    background: whitesmoke;
     color: var(--white);
     position: sticky;
     top: 0;
@@ -14,23 +14,12 @@
 }
 
 /* Logo */
-.logo h1 {
-    margin: 0;
-    text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: var(--gold-orange);
+.logo img {
+  
+    height: auto;
+    max-width: 50px;
 }
 
-.logo span {
-    display: block;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: var(--white);
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 /* Navigation Links */
 .nav-links {
@@ -42,7 +31,7 @@
 }
 
 .nav-links a {
-    color: var(--white);
+    color: #333;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
@@ -82,7 +71,7 @@
 .bar {
     width: 25px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--gold-orange);
     margin: 4px 0;
     transition: 0.4s;
 }
